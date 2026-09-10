@@ -1,0 +1,3 @@
+# SOC-Insight synthetic log - Scenario D: Lateral Movement (safe simulation)
+2026-02-10T11:20:00Z event_type=auth_remote_login host=WKS-14 user=jdupont source_ip=10.0.12.14 destination_ip=10.0.30.12
+2026-02-10T11:20:45Z event_type=service_remote_service_creation host=WKS-14 user=jdupont process=services.exe file="C:\Windows\Temp\psexesvc.exe" destination_ip=10.0.30.12

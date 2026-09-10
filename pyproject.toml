@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "soc-insight"
+version = "1.0.0"
+description = "AI-assisted security investigation and threat hunting workbench (local, rule-based, no paid API required)"
+requires-python = ">=3.10"
+dependencies = [
+    "flask>=3.0",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]

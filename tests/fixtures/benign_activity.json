@@ -1,0 +1,7 @@
+[
+  {"timestamp": "2026-02-11T09:00:00Z", "event_type": "auth_failed_login", "host": "WKS-40", "user": "sconnor", "source_ip": "10.20.5.20"},
+  {"timestamp": "2026-02-11T09:00:30Z", "event_type": "auth_failed_login", "host": "WKS-40", "user": "sconnor", "source_ip": "10.20.5.20"},
+  {"timestamp": "2026-02-11T09:01:00Z", "event_type": "auth_successful_login", "host": "WKS-40", "user": "sconnor", "source_ip": "10.20.5.20"},
+  {"timestamp": "2026-02-11T09:10:00Z", "event_type": "process_powershell_execution", "host": "WKS-40", "user": "sconnor", "process": "powershell.exe", "command": "powershell.exe Get-Process | Sort-Object CPU -Descending | Select-Object -First 10"},
+  {"timestamp": "2026-02-11T09:20:00Z", "event_type": "persistence_scheduled_task_creation", "host": "WKS-40", "user": "administrator", "process": "schtasks.exe", "file": "C:\\Program Files\\Backup\\backup.exe"}
+]

@@ -1,0 +1,7 @@
+[
+  {"timestamp": "2026-02-10T14:05:00Z", "event_type": "file_collection_activity", "host": "SRV-FILE07", "user": "aharrison", "file": "C:\\Data\\Finance\\Q4_report.xlsx"},
+  {"timestamp": "2026-02-10T14:06:20Z", "event_type": "file_collection_activity", "host": "SRV-FILE07", "user": "aharrison", "file": "C:\\Data\\HR\\employee_records.xlsx"},
+  {"timestamp": "2026-02-10T14:07:05Z", "event_type": "file_collection_activity", "host": "SRV-FILE07", "user": "aharrison", "file": "C:\\Data\\Legal\\contracts_2025.pdf"},
+  {"timestamp": "2026-02-10T14:10:30Z", "event_type": "archive_creation", "host": "SRV-FILE07", "user": "aharrison", "file": "C:\\Users\\Public\\backup_temp.zip"},
+  {"timestamp": "2026-02-10T14:12:55Z", "event_type": "network_outbound_transfer", "host": "SRV-FILE07", "user": "aharrison", "destination_ip": "91.219.237.24", "destination_port": 443}
+]
